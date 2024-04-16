@@ -1,14 +1,16 @@
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size:xx-large;
     font-weight: 500;
-    color:#1ee481;
+    color:pink;
+text-align: right;
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1ee481;
-}
+    font-family: 'Courier New', Courier, monospace;
+    color: pink;
+
+text-align: right;}
 
 p{
     font-family: 'Courier New', Courier, monospace;
@@ -21,16 +23,17 @@ footer{
 }
 
 header{
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    font-family: Arial;
     color: white;
     font-size: xx-large;
-    text-align: center;
+    text-align: right;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    color: pink;
+    text-decoration: ;
+text-align: right;
 }
 
 /* Der folgende Style wirkt auf eine class namens flex-container 
@@ -38,11 +41,11 @@ eine Class wird in der styles.css immer mit einem führenden Punkt dargestellt.*
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;    
+    background-color: rgb(255,30,255);    
   }
   /* Der folgende Style wirkt auf ale DIVs innerhalb eines flex-containers*/
   .flex-container > div {
-    background-color: #1ee481;
+    background-color: pink;
     width: 100%;
     margin: 10px;
     text-align: center;
